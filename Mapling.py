@@ -2,8 +2,11 @@
 import tkinter as tk
 from pointSelection import PointSelectionApp
 from createGraph import AppliedMath
+
+
+
 def main():
-    '''
+  
     input("Please select points that represent path of image, line can overlap (Press enter to continue): ")
     root = tk.Tk()
     app = PointSelectionApp(root)
@@ -34,8 +37,8 @@ def main():
     path_points = [(69, 650), (155, 486), (331, 231), (426, 205), (455, 279), (418, 464), (371, 643)]
     speed_points = [(26, 660), (132, 459), (251, 275), (404, 238), (443, 349), (444, 443), (462, 637)]
     ######################
-
-    x_vs_time = [x for i in]
+    '''
+    
     
    
    
