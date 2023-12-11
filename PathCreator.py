@@ -11,6 +11,8 @@ from Spline3D import Spline3D
 
 
 
+length = float(input("Enter Length of resulting video clip:"))
+
 input("Please select points that represent path of image, line can overlap (Press enter to continue): ")
 root = Tk()
 app = PointSelectionApp(root)
@@ -25,7 +27,7 @@ else:
     exit()
 
 root = Tk()
-app = SliderApp(root, 15, path_points)
+app = SliderApp(root, length, path_points)
 root.title("Slider Widget")
 root.mainloop()
 

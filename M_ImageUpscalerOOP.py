@@ -1,6 +1,7 @@
 import cv2
 from cv2 import dnn_superres
-
+#pip install opencv-contrib-python
+from PIL import Image
 class ImageSuperResolution:
     def __init__(self):
         self.sr = dnn_superres.DnnSuperResImpl_create()
@@ -28,16 +29,29 @@ class ImageSuperResolution:
         self.read_model(self.modelPath, self.modelName, scale)
         result = self.upscale(image_path)
         self.save_image(result, output_path)
+    def convert_webp_to_jpg(self, input_image_path, output_image_path):
 
+        try:
+            # Open the WebP image file
+            with Image.open(input_image_path) as image:
+                # Convert the image to RGB mode (if not already in this mode)
+                rgb_image = image.convert('RGB')
+                # Save the image in JPG format
+                rgb_image.save(output_image_path, 'JPEG')
+            print(f"Conversion successful. Image saved as '{output_image_path}'")
+        except Exception as e:
+            print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
     model_path = "/models/LapSRN_x2.pb"
     model_name = "lapsrn"
     scale = 2
-    image_path = "/home/kevin/Desktop/PARSE/Mapling/images/dog1.jpg"
-    output_path = "/home/kevin/Desktop/PARSE/Mapling/upscaled/upscaledDog.jpg"
+    #raw_path = "/home/kevin/Desktop/PARSE/Mapling/images/corgi.webp"
+    image_path = "/home/kevin/Desktop/PARSE/Mapling/images/corgi.jpg"
+    output_path = "/home/kevin/Desktop/PARSE/Mapling/upscaled/upscaledcorgi3.jpg"
     
     isr = ImageSuperResolution()
+    #isr.convert_webp_to_jpg(raw_path, image_path)
     isr.process_image(scale, image_path, output_path)
 
 

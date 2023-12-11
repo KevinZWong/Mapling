@@ -8,7 +8,7 @@ import json
 import os
 class Spline3D:
     def __init__(self, x_points=None, y_points=None, z_points=None):
-        if x_points == None or y_points == None or z_points == None:
+        if not(x_points == None or y_points == None or z_points == None):
             self.initialize(x_points, y_points, z_points)
         # Remember to load data if there are no inputted values
 
@@ -88,7 +88,7 @@ class Spline3D:
         print(f"'/mapling_models/spline_data_{name}.json' created")
     def load_data(self, filename):
 
-        with open(f"/mapling_models/{filename}", 'r') as file:
+        with open(f"mapling_models/{filename}", 'r') as file:
             point_data = json.load(file)
         x_values = np.array(point_data['x_values'])
         y_values = np.array(point_data['y_values'])
