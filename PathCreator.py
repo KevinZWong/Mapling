@@ -1,7 +1,7 @@
 
 from tkinter import *
-from pointSelection import PointSelectionApp
-from timeAdjustment import SliderApp
+from PointSelection import PointSelectionApp
+from TimeAdjustment import SliderApp
 import numpy as np
 from scipy.interpolate import CubicSpline
 import matplotlib.pyplot as plt
