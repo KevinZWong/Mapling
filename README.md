@@ -1,7 +1,7 @@
 # Mapling
 A video animator tool that turns images into videos with custom pan movements.
 
-## Example
+## Example (Click)
 [![Mapling Example](https://github.com/KevinZWong/Mapling/blob/main/images/corgi.jpg)](https://youtube.com/shorts/YtoLPY6lriI?feature=share)
 
 ## Summary
@@ -33,18 +33,18 @@ Run the examples.py which will create a second video named test2.mp4 for you to 
    - After pressing enter, a GUI will appear.
    - Select the desired path for the image movement. Sides and corners represent the movement boundaries.
    - *Example:* For a curved movement path, arrange the points accordingly.
-   - ![GUI1]([https://github.com/KevinZWong/Mapling/blob/main/images/guild_gui1.png])
+     ![GUI1]([https://github.com/KevinZWong/Mapling/blob/main/images/guild_gui1.png])
 
 3. **Finalizing the Path:**
    - Click `Done`.
    - The next GUI allows adjustment of time intervals between selected points. Shorter intervals mean faster camera movement.
    - *Example:* For acceleration towards the end, arrange the points closer towards the end.
-   - ![GUI2]([[https://github.com/KevinZWong/Mapling/blob/main/images/guild_gui2.png])
+     ![GUI2]([[https://github.com/KevinZWong/Mapling/blob/main/images/guild_gui2.png])
 
 4. **3D Model Preview:**
    - A 3D model representing the camera positions over time (x-position, y-position, time) will be displayed.
    - Close the graph when done.
-   - ![GUI2]([[https://github.com/KevinZWong/Mapling/blob/main/images/guild_gui3.png])
+     ![GUI2]([[https://github.com/KevinZWong/Mapling/blob/main/images/guild_gui3.png])
 5. **Saving the Model:**
    - Follow the command line instructions to name your model.
    - Models are saved in the `mapling_models` folder.
