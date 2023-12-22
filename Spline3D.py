@@ -88,7 +88,7 @@ class Spline3D:
         print(f"'/mapling_models/spline_data_{name}.json' created")
     def load_data(self, filename):
 
-        with open(f"mapling_models/{filename}", 'r') as file:
+        with open(filename, 'r') as file:
             point_data = json.load(file)
         x_values = np.array(point_data['x_values'])
         y_values = np.array(point_data['y_values'])

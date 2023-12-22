@@ -1,3 +1,10 @@
+"""
+The Mapling project uses a Tkinter widget developed by Mengxun Li
+Copyright (c) 2020, Mengxun Li
+All rights reserved.
+More information cab be found here: https://github.com/MenxLi/tkSliderWidget/tree/master
+"""
+
 from tkinter import *
 from tkinter.ttk import *
 

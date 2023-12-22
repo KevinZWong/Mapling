@@ -44,14 +44,12 @@ class SliderApp:
         self.label.pack()
 
     def on_value_change(self, vals):
-        print(vals)
+        pass
 
     def get_slider_values(self):
         return self.slider.getValues()
     def finalize_points(self):
         # If there's any action to be taken when points selection is done, it goes here.
-        # Remember that the y-coordinates are already flipped.
-        print(self.get_slider_values())
         self.root.destroy()
 
 
