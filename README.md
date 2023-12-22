@@ -2,7 +2,7 @@
 A video animator tool that turns images into videos with custom pan movements.
 
 ## Example
-[![Video After Mapling](https://github.com/KevinZWong/Mapling/blob/main/images/corgi.jpg)](https://github.com/KevinZWong/Mapling/blob/main/finishedVideos/test1.mp4)
+[![Mapling Example](https://github.com/KevinZWong/Mapling/blob/main/images/corgi.jpg)](https://youtube.com/shorts/YtoLPY6lriI?feature=share)
 
 ## Summary
 Mapling takes an image and upscales it until it is 150% larger than the resolution of the resulting video. It moves the image to a new position 60 times per second to create a video. The image's new position is determined by a customizable 3D spline graph that graphs x, y, and time into a single smooth curve. Points can be set to create your own custom curve (path of travel) for the image. The time between each point can be set to determine the speed of the image at any point. Everything is 100% customizable to create your very own custom image movement.  
