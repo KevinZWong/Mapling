@@ -17,8 +17,7 @@ Mapling takes an image and upscales it until it is 150% larger than the resoluti
 1. Clone the repository:   
 `git clone https://github.com/KevinZWong/Mapling.git`  
 `cd Mapling`  
-`pip install -r requirements.txt`  
-Run the examples.py which will create a second video named test2.mp4 for you to enjoy in the finishedVideos folder
+`pip install -r requirements.txt`
 
 ### **Running the Example:**
 - Run the `examples.py` which will create a second video named `test2.mp4` in the `finishedVideos` folder.
