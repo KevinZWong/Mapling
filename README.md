@@ -38,12 +38,13 @@ Mapling takes an image and upscales it until it is 150% larger than the resoluti
    - Click `Done`.
    - The next GUI allows adjustment of time intervals between selected points. Shorter intervals mean faster camera movement.
    - *Example:* For acceleration towards the end, arrange the points closer towards the end.  
-![GUI2]([[https://github.com/KevinZWong/Mapling/blob/main/images/guild_gui2.jpg])
+[![GUI1](https://github.com/KevinZWong/Mapling/blob/main/images/guild_gui2.jpg)](https://youtube.com/shorts/YtoLPY6lriI?feature=share)
 
 4. **3D Model Preview:**
    - A 3D model representing the camera positions over time (x-position, y-position, time) will be displayed.
    - Close the graph when done.  
-![GUI2]([[https://github.com/KevinZWong/Mapling/blob/main/images/guild_gui3.jpg])
+[![GUI1](https://github.com/KevinZWong/Mapling/blob/main/images/guild_gui3.jpg)](https://youtube.com/shorts/YtoLPY6lriI?feature=share)
+
 5. **Saving the Model:**
    - Follow the command line instructions to name your model.
    - Models are saved in the `mapling_models` folder.
