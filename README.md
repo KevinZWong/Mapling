@@ -32,7 +32,7 @@ Mapling takes an image and upscales it until it is 150% larger than the resoluti
    - After pressing enter, a GUI will appear.
    - Select the desired path for the image movement. Sides and corners represent the movement boundaries.
    - *Example:* For a curved movement path, arrange the points accordingly.  
-![GUI1]([https://github.com/KevinZWong/Mapling/blob/main/images/guild_gui1.jpg])
+[![GUI1](https://github.com/KevinZWong/Mapling/blob/main/images/guild_gui1.jpg)](https://youtube.com/shorts/YtoLPY6lriI?feature=share)
 
 3. **Finalizing the Path:**
    - Click `Done`.
